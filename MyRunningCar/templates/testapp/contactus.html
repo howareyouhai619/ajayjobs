@@ -1,0 +1,52 @@
+{% extends 'testapp/Base.html' %}
+{%load staticfiles%}
+{% block body_block %}
+
+<section id="footer">
+  <div class="footer-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 footer-box" >
+            <img src="{%static "images/logo.jpg"%}">
+            <p class="aboutom">OM Programming World is a computer institute which is established near Fire station Boali road, Baraut, U.P.
+              We provide online and offline training for students on latest computer technologies such as Python, Java, Dev OOP’s C++. Both method of learning good and has its own advantages and disadvantages.
+              But We think that we should use all Technologies to save our <b>"TIME & MONEY"</b>  .
+              If any student wants to learn any technologies completely then it will take time with the dedication.
+              In online learning faculity discussions and personal talk time with their professors and lecturers is a hallmark of online classes.
+              This also enhances their problem-solving and communication skills, as well as knowing how to defend their arguments to superiors if needed.
+            </p>
+        </div>
+        <div class="col-md-6 footer-box footer-box2 my">
+            <p class="contact"> <b> CONTACT US </b> </p>
+            <p class="contact2"> <img src="{%static "images/map.png"%}">Inside Fire Station Baraut,Baghpat,UP,India</p>
+            <p class="phone"> <img src="{%static "images/mobile2.jpg"%}">&nbsp;&nbsp; 9389414143</p>
+            <p class="phone"><img src="{%static "images/mail7.png"%}">&nbsp;&nbsp; OmProgrammingWorld@gmail.com</p>
+        </div>
+
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+<nav class="navbar navbar-dark navbar-expand-md fixed-bottom navbar-custom " style="background-color: #000000;">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+      <footer>
+          <div class="navbar navbar-inverse navbar-fixed-bottom">
+                      <ul class="nav navbar-nav"  style="font-size: 20px;">
+                        <li class="nav-item navspace" style="margin-left:300px"><a>Running Under the Aeigs of "OM RAM Educational Trust" Baraut , Baghpat </a></li>
+                      </ul>
+                  </div>
+
+      </footer>
+    </div>
+</nav>
+{%endblock%}

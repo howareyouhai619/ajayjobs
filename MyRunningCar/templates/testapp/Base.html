@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="{%static 'css/mycss.css'%}">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <section id="Section1">
+      <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar-custom " style="background-color: #000000;">
+      <!--Brand -->
+      <a class="navbar-brand"> <img src="{%static "images/logo.jpg"%}"> </a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+        <ul class="navbar-nav myclass">
+          <li class="nav-item ">
+            <a class="nav-link" href="/home">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              COURSES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+              <a class="dropdown-item" href="/python" style="background-color: #000000;">PYTHON Full STACK WEB DEVE.</a>
+              <a class="dropdown-item" href="/corejava" style="background-color: #000000;">CORE JAVA</a>
+              <a class="dropdown-item" href="/advjava" style="background-color: #000000;">ADV JAVA</a>
+              <a class="dropdown-item" href="/cplusplus" style="background-color: #000000;">C++ LANG</a>
+              <a class="dropdown-item" href="/c" style="background-color: #000000;">C LANG</a>
+
+            </div>
+          <li class="nav-item" >
+            <a class="nav-link" href="/register">REGISTER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactus">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/social">SOCIAL CONNECT</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link navbar-text ml" >Phone:- 9389414143</a>
+          </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text ml" >Email-Id:- OMPROGRAMMINGWORLD@GMAIL.COM</a>
+              </li>
+
+            </ul>
+    </nav>
+
+    </section>
+
+
+
+<!--.................................NAVIGATION At  Bottom.....................................-->
+<section>
+
+</section>
+
+
+{% block body_block %}
+
+{% endblock %}
+
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{% extends 'testapp/Base.html' %}
+{%load staticfiles%}
+{% block body_block %}
+<!-- Social Media Section ---------------------------->
+<section id="social-media">
+  <div class="container text-center">
+    <p>Find us on social media</p>
+    <div class="social-icons">
+      <a href="#"> <img src="{%static "images/fa.jpg"%}"> </a>
+      <a href="#"> <img src="{%static "images/ins.jpg"%}"> </a>
+      <a href="#"> <img src="{%static "images/link.jpg"%}"> </a>
+      <br>
+      <a href="#"> <img src="{%static "images/whats.png"%}"> </a>
+      <a href="#"> <img src="{%static "images/snap.png"%}"> </a>
+      <a href="#"> <img src="{%static "images/tw.png"%}"> </a>
+    </div>
+  </div>
+</section>
+
+{%endblock%}

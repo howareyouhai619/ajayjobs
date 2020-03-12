@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.body1{
+  background: #fad25a;
+  width:inherit;
+  height: inherit;
+}
+
+
+/*--------------NAVBAR--------------------*/
+#navbar-brand img{
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}
+.navbar-brand img{
+width: 70px;
+height: 30px;
+padding-left: 30px;
+}
+
+.nav-item a img{
+  width: 40px;
+  height: 25px;
+}
+
+.nav-item a p{
+  margin-right: 30px;
+}
+
+.ml-auto li a{
+  padding-left: 30px;
+}
+
+.ml{
+  padding-right: 50px;
+}
+
+
+
+.myclass a : hover {
+  color: red;
+}
+
+
+
+#idforp{
+  padding-top: 60px;
+}
+
+
+.navspace{
+  margin: 5px;
+  padding-left: 20px;
+}
+
+.navspace a{
+  color: white;
+}
+
+.nav-item a{
+  color: white;
+}
+
+
+
+.classforspace{
+  margin-top:60px;
+}
+
+.classforspace2{
+  margin-bottom:70px;
+}
+
+.wrapper{
+  width:80%;
+}
+@media(max-width:992px){
+ .wrapper{
+  width:100%;
+}
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.border1 a{
+  border: 3px ridge;
+}
+
+.border2{
+  border-bottom: 3px outset;
+}
+
+.border3{
+  border: 3px outset;
+}
+
+
+
+.leftrightmargin{
+  margin-left: 50px;
+  margin-right: 50px
+}
+
+table th{
+  color:green;
+}
+
+table td{
+  color:red;
+}
+
+
+
+table th,td{
+  text-align:center;
+  border: 1px inset ;
+  font-size: 30px;
+}
+
+.classforspace3{
+  margin-top: 10px;
+}
+
+
+#collapsibleNavbar ul li a{
+  color: white!important;
+}
+
+.dropdown-menu {
+  color: white;
+  background-color: #4d4d4d !important;
+}
+
+.dropdown-menu :hover {
+  background-color: #737373 !important;
+}
+
+.tablewh {
+padding: 100px;
+margin-top: 50px;
+}
+
+table tr:hover {background-color: #f5f5f5;}
+
+.tab{
+  width:250px;
+  height: 250px;
+}
+
+.font1{
+  font-size: 30px;
+}
+
+.font2{
+  font-size: 30px;
+}
+
+.img-wrap{
+  width: 100%;
+}
+
+.img-wrap img{
+  width: 70%;
+  border-radius: 60%;
+  padding: 10px;
+  box-shadow: 0 0 10px #999999;
+}
+
+.classforimg{
+  height: 80vh;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#about h2{
+  margin-bottom: 25px;
+}
+
+.tablejoin{
+  border-style: outset;
+  }
+
+.tablejoin th,td{
+  font-size: 25px;
+}
+
+
+/* ------------------ Footer Section ------------------*/
+#footer{
+  padding-top: 70px;
+  background-image: linear-gradient(to right,black,#d4af37);
+  color: white;
+}
+
+.footer-img{
+  width: 100%;
+}
+
+.footer-box{
+  padding: 20px;
+}
+
+.footer-box img{
+  width: 350px;
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+.footer-box2 p img{
+  width: 40px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.contact{
+  font-size: 50px;
+}
+
+.footer-box2 img{
+  margin-right:  8px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+}
+
+.contact2{
+  padding-top: 10px;
+  font-size: 20px;
+}
+/*-------------- Footer Box ------------------*/
+.form-control .footer-box{
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 250px;
+  max-width: 250px;
+}
+
+.btn-primary{
+  box-shadow: none !important;
+  border: none !important   ;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right,black,#d4af37);
+}
+
+/*-------------- SOCIAL CONNECTION ------------------*/
+
+#social-media{
+  background-image: linear-gradient(to right,black,#d4af37);
+  padding: 150px 0px;
+}
+
+.container p{
+  color: white;
+}
+
+#social-media p{
+  font-size: 110px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#social-media img{
+  width: 170px;
+  transition: .5s;
+}
+
+#social-media a:hover img{
+  transform: translateY(-15px);
+}
+
+.aboutom{
+  font-size: 20px;
+}
+
+.my p{
+  font-size: 20px;
+}
+
+.phone{
+  font-size: 20px;
+}
